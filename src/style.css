@@ -1,0 +1,140 @@
+
+header{
+    background-color: #aa81d1;
+    padding: 10px;
+    border-bottom: 1px solid #076784;
+
+}
+
+main{
+    padding: 10px;
+    min-height: 100vh;
+    /*background-color: rgb(255, 166, 248);*/
+    background: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80);
+    background-size: cover;
+
+}
+.listado{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin: 20px;
+    height: 100%;
+}
+
+.listado section{
+    padding: 5px 15px 15px 15px;
+    border-radius: 10px;
+    background-color: #380572;
+    box-shadow: 0px 0px 5px 0px #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botones__home{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones__home ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botones__home ul > li{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.boton__inicio{
+    background-color: #77003c;
+    cursor: pointer;
+}
+
+.boton__inicio:hover, .boton__listar:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.agregar__tutorial:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.contenedor__boton__agregar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.boton__listar{
+    background-color: #076784;
+    cursor: pointer;
+}
+
+.publicados{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.publicados:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+    color: tomato;
+}
+
+.tutorial__titulo{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.tutorial__descripcion{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.contenedor__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    background-color: #acaf01;
+    width: 80%;
+    text-align: center;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
